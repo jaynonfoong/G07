@@ -2,7 +2,7 @@ from microbit import *
 
 started = False
 while True:
-    display.scroll("Press A to start Alarm")
+    
     if button_a.is_pressed():
         started = True
     elif button_b.is_pressed():
