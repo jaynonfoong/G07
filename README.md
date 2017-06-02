@@ -1,10 +1,12 @@
 # G07
+
+
 from microbit import *
 
 started = False
 while True:
     
-    if button_a.is_pressed():
+   if button_a.is_pressed():
         started = True
     elif button_b.is_pressed():
         started = False
